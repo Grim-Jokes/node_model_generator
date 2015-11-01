@@ -1,0 +1,11 @@
+{
+  "name": "ModelGenerator",
+  "version": "0.0.1",
+  "description": "ModelGenerator",
+  "main": "app.js",
+  "private": true,
+  "author": {
+    "name": "danszekely",
+    "email": ""
+  }
+}
