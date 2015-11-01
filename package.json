@@ -1,11 +1,14 @@
 {
-  "name": "ModelGenerator",
+  "name": "gen",
   "version": "0.0.1",
-  "description": "ModelGenerator",
+  "description": "Generate models, and a database context object based on the database specified.",
   "main": "app.js",
   "private": true,
   "author": {
     "name": "danszekely",
     "email": ""
+  },
+  "dependencies": {
+
   }
 }
