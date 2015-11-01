@@ -1,4 +1,4 @@
-﻿var gen = require('./postgres/gen');
+﻿var gen = require('./lib/postgres/gen');
 
 for (i = 2; i < process.argv.length; i++) {
 	if (process.argv[i] == '-H' || process.argv[i] == '-h') {

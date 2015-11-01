@@ -13,7 +13,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a62c3554-2d60-48b0-8f4e-c568d7dc20f8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>lib\app.js</StartupFile>
+    <StartupFile>app.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -31,12 +31,13 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="lib\app.js" />
+    <Compile Include="app.js" />
     <Compile Include="lib\base_context.js" />
     <Compile Include="lib\postgres\file_gen.js" />
     <Compile Include="lib\postgres\gen.js" />
     <Compile Include="lib\postgres\row_serializer.js" />
     <Compile Include="lib\row_serializer.js" />
+    <Compile Include="db_context.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
