@@ -23,7 +23,7 @@ var ctx = require("db_context")(con_string);
 Ideally the code to select will be:
 
 ```
-var result = ctx.Persons.where({first_name="John", last_name="AppleSeed")}, {email="john@gmail.com"} )
+var result = ctx.Persons.where(person => person.first_name="John" && person.last_name="AppleSeed" || person.email="john@gmail.com")
 //The result.sql SQL should be:
 //SELECT * FROM `person` WHERE (first_name = 'John' and last_name = 'AppleSeed') OR (email='john@gmail.com');
 ```
@@ -48,7 +48,7 @@ ctx.save();
 The code to update a single model will be:
 
 ```
-var person = ctx.Persons.single({id = 1}) 
+var person = ctx.Persons.single({id : 1}) 
 person.set_first_name("Bob");
 //UPDATE `person` SET first_name = 'Bob' WHERE id = 1;
 ctx.save();
