@@ -33,10 +33,13 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="lib\base_context.js" />
+    <Compile Include="lib\postgres\files\base_file_gen.js" />
+    <Compile Include="lib\postgres\files\context_field_gen.js" />
+    <Compile Include="lib\postgres\files\model_field_gen.js" />
     <Compile Include="lib\postgres\files\model_gen.js" />
     <Compile Include="lib\postgres\file_gen.js" />
     <Compile Include="lib\postgres\gen.js" />
-    <Compile Include="lib\postgres\context_gen.js" />
+    <Compile Include="lib\postgres\files\context_gen.js" />
     <Compile Include="node_modules\collection.js" />
     <Compile Include="lib\postgres\row_serializer.js" />
     <Compile Include="lib\row_serializer.js" />
