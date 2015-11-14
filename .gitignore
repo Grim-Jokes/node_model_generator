@@ -27,3 +27,4 @@ build/Release
 node_modules
 .ntvs_analysis.dat
 .ntvs_analysis.dat
+ctx.js
