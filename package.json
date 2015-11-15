@@ -8,7 +8,9 @@
     "name": "danszekely",
     "email": ""
   },
-  "dependencies": {
-
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "^7.1.1"
   }
 }
