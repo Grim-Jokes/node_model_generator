@@ -60,3 +60,14 @@ The code to delete a model will be:
 ctx.Persons.delete({id = 1})
 //DELETE FROM `person` WHERE id = 1;
 ```
+
+
+
+#Unit tests
+Mochajs and Shouldjs
+
+Running the command
+```
+mocha
+```
+from the root directory will run the tests in test/*.js
