@@ -1,15 +1,22 @@
-//AUTO-GENERATED FILE: Do not update code here or it could be overriden if the tool is ran again.
+//AUTO-GENERATED FILE: Do not update code here or it could be overwritten if the tool is ran again.
+//Generated On: 2015-11-21 15:43:16.581Z
 
 var pg = require("pg");
-var collection = require("collection")
+var collection = require("collection");
 
-modules.export = ctxvar ctx = DbContext.prototype;
+var ctx = DbContext.prototype;
 
-function DbContext(conString) { this._constring = conString; }
+function DbContext(conString) {
+	this._constring = conString;
+}
 
-ctx.persons= Object.create(collection.prototype);
-ctx.persons.constructor = collection;
+ctx.transactions = Object.create(collection.prototype);
+ctx.transactions.constructor = collection
+ctx.transactions.table_name = "transaction"
 
-ctx.transactions= Object.create(collection.prototype);
-ctx.transactions.constructor = collection;
+ctx.persons = Object.create(collection.prototype);
+ctx.persons.constructor = collection
+ctx.persons.table_name = "person"
+
+module.exports = DbContext;
 
