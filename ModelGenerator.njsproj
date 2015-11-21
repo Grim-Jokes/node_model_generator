@@ -42,6 +42,7 @@
     <Compile Include="node_modules\collection.js" />
     <Compile Include="lib\postgres\row_serializer.js" />
     <Compile Include="lib\row_serializer.js" />
+    <Compile Include="test.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
