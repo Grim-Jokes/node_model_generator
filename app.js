@@ -2,6 +2,7 @@
 var collection = require('collection');
 var ctx = require('./ctx.js');
 
+
 for (i = 2; i < process.argv.length; i++) {
 	if (process.argv[i] == '-H' || process.argv[i] == '-h') {
 		
@@ -14,5 +15,3 @@ for (i = 2; i < process.argv.length; i++) {
 }
 
 gen.generate();
-
-return;
