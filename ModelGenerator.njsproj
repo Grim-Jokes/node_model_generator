@@ -13,7 +13,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a62c3554-2d60-48b0-8f4e-c568d7dc20f8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>app.js</StartupFile>
+    <StartupFile>test.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -39,7 +39,7 @@
     <Compile Include="lib\postgres\files\model_gen.js" />
     <Compile Include="lib\postgres\gen.js" />
     <Compile Include="lib\postgres\files\context_gen.js" />
-    <Compile Include="node_modules\collection.js" />
+    <Compile Include="lib\postgres\collection.js" />
     <Compile Include="lib\postgres\row_serializer.js" />
     <Compile Include="lib\row_serializer.js" />
     <Compile Include="test.js" />
@@ -50,6 +50,7 @@
     <Folder Include="lib\" />
     <Folder Include="lib\postgres\" />
     <Folder Include="lib\postgres\files\" />
+    <Folder Include="lib\postgres\sql\" />
     <Folder Include="node_modules\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
