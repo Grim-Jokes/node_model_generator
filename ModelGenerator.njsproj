@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="lib\postgres\context.js" />
     <Compile Include="lib\postgres\files\base_file_gen.js" />
     <Compile Include="lib\postgres\files\context_field_gen.js" />
     <Compile Include="lib\postgres\files\file_gen.js" />
