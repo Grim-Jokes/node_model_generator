@@ -21,9 +21,14 @@ var p1 = ctx.persons;
 var person = new Person();
 person.first_name = "Daniel";
 person.last_name = "Szekely";
-p1.push(person)
+p1.push(person);
+p1.push(person);
 
-var p = ctx.persons.filter(p => p.first_name = "Dan");
+ctx.save(function () {
+    console.log('?');
+});
+
+var p = ctx.persons.filter(p => p.first_name == "Daniel");
 
 var result = q.to_list(function (rows) {
     r = rows;
